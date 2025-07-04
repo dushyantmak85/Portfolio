@@ -290,7 +290,7 @@ document.getElementById('messageForm').addEventListener('submit', function(event
     };
 
     // Use EmailJS to send the email
-    emailjs.send('service_o1264bm', 'template_lxgwe91', formData)
+    emailjs.send('service_4r8hpok', 'template_knbet2p', formData)
         .then(response => {
             console.log('Success:', response.status, response.text);
             alert('Message sent successfully!');
